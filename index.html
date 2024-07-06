@@ -388,14 +388,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+		<div id="bg">
+			<div id="particles-js"></div>
+		</div>
 
 		<!-- Scripts -->
+			<script type="text/javascript" src="assets/js/particles.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				particlesJS.load('particles-js', 'assets/config/particles-js.json', function() {});
+			</script>
 
 	</body>
 </html>
